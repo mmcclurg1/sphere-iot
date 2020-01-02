@@ -1,0 +1,17 @@
+{
+  "SchemaVersion": 1,
+  "Name": "AzureIoT",
+  "ComponentId": "00033f12-3c90-4c80-8a6a-ffd3801e555f",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [ "0ne000A8880" ],
+  "Capabilities": {
+    "AllowedConnections": [ "global.azure-devices-provisioning.net", "abilIoTy-Test-Hub.azure-devices.net", "iotc-9f3dd171-b049-4302-9c54-a23f85cd6426.azure-devices.net" ],
+    "Gpio": [ "$SAMPLE_BUTTON_1", "$SAMPLE_BUTTON_2", "$SAMPLE_LED" ],
+    "Adc": [ "$SAMPLE_POTENTIOMETER_ADC_CONTROLLER" ],
+
+
+
+    "DeviceAuthentication": "2b18ab34-12f8-4e5d-88f6-e3a13ea5f3e7"
+  },
+  "ApplicationType": "Default"
+}
